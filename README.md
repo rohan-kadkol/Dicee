@@ -1,31 +1,22 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Dicee
 
+This is a Flutter app I worked on following the starter code from the [Flutter Udemy course by Angela Yu](https://www.udemy.com/course/flutter-bootcamp-with-dart/).
 
-# Dicee 🎲
+This app rolls two dices. Crossing my fingers, and hoping the numbers adds up to ten. A ten will get me on the longest ladder on the Snake and Ladders board.
 
-## Our Goal
+If I get a ten, then I can tell Jeff, "Eat my dust, Jeff. I'm going to win soon." I can follow that up with a evil victory laugh.
+I hate Jeff and want to defeat him so bad.
 
-The objective of this tutorial is to introduce you to the core programming concepts that will form the foundation of most of the apps you’ll build in the future. This app will teach you how to make apps with functionality using setState() inside Stateful Flutter widgets.
+## Skills Learned
 
+* Stateless and Stateful Widgets
+* "Flexible" Widget
+* Dart is a statically typed language.
+  * But it can be made dynamic by using the variable type, "dynamic."
+* Anonymous Functions
+* dart:math library for Random().nextInt()
+* onPressed attribute on Buttons
 
-## What you will create
+## Screenshot
 
-We’re going to make a Las Vegas dice app. You can make the die roll at the press of a button. With this app in your pocket, you’ll be able to settle any score on the go!
-
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/dicee-demo.gif)
-
-## What you will learn
-
-- How to use Flutter stateless widgets to design the user interface.
-- How to use Flutter stateful widgets to update the user interface.
-- How to change the properties of various widgets.
-- How to use onPressed listeners to detect when buttons are pressed.
-- How to use setState to mark the widget tree as dirty and requiring update on the next render.
-- How to use Expanded to make widgets adapt to screen dimensions.
-- Understand and use string interpolation.
-- Learn about basic dart programming concepts such as data types and functions.
-- Code and use gesture controls.
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+<img src="images/screenshot.gif">
